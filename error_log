@@ -1,0 +1,16 @@
+[18-Sep-2017 13:07:34 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '$nome' (T_VARIABLE), expecting ',' or ';' in /home/igm/public_html/simulador/sendmail.php on line 17
+[18-Sep-2017 13:47:45 America/Sao_Paulo] PHP Fatal error:  Call to undefined method Smtp::MsgHTML() in /home/igm/public_html/simulador/sendmail.php on line 37
+[18-Sep-2017 13:51:46 America/Sao_Paulo] PHP Fatal error:  Call to undefined method Smtp::AddAddress() in /home/igm/public_html/simulador/sendmail.php on line 36
+[18-Sep-2017 13:54:59 America/Sao_Paulo] PHP Fatal error:  Call to undefined method Smtp::AddAddress() in /home/igm/public_html/simulador/sendmail.php on line 36
+[18-Sep-2017 13:57:01 America/Sao_Paulo] PHP Fatal error:  Call to undefined method Smtp::MsgHTML() in /home/igm/public_html/simulador/sendmail.php on line 39
+[18-Sep-2017 13:58:28 America/Sao_Paulo] PHP Fatal error:  Call to undefined method Smtp::MsgHTML() in /home/igm/public_html/simulador/sendmail.php on line 39
+[18-Sep-2017 13:59:08 America/Sao_Paulo] PHP Fatal error:  Call to undefined method Smtp::MsgHTML() in /home/igm/public_html/simulador/sendmail.php on line 39
+[18-Sep-2017 14:00:59 America/Sao_Paulo] PHP Fatal error:  Call to undefined method Smtp::MsgHTML() in /home/igm/public_html/simulador/sendmail.php on line 39
+[18-Sep-2017 14:03:01 America/Sao_Paulo] PHP Fatal error:  Call to undefined method Smtp::IsHTML() in /home/igm/public_html/simulador/sendmail.php on line 40
+[18-Sep-2017 14:06:51 America/Sao_Paulo] PHP Fatal error:  Call to undefined method Smtp::IsHTML() in /home/igm/public_html/simulador/sendmail.php on line 40
+[18-Sep-2017 14:08:11 America/Sao_Paulo] PHP Fatal error:  Call to undefined method Smtp::IsHTML() in /home/igm/public_html/simulador/sendmail.php on line 40
+[18-Sep-2017 14:29:05 America/Sao_Paulo] PHP Fatal error:  Class 'PHPMailer' not found in /home/igm/public_html/simulador/sendmail.php on line 13
+[18-Sep-2017 14:30:00 America/Sao_Paulo] PHP Fatal error:  Class 'PHPMailer' not found in /home/igm/public_html/simulador/sendmail.php on line 13
+[18-Sep-2017 14:35:25 America/Sao_Paulo] PHP Fatal error:  Call to undefined method Smtp::MsgHTML() in /home/igm/public_html/simulador/sendmail.php on line 42
+[18-Sep-2017 14:37:33 America/Sao_Paulo] PHP Fatal error:  Call to undefined method Smtp::IsHTML() in /home/igm/public_html/simulador/sendmail.php on line 42
+[18-Sep-2017 14:42:57 America/Sao_Paulo] PHP Warning:  Missing argument 4 for Smtp::Send(), called in /home/igm/public_html/simulador/sendmail.php on line 34 and defined in /home/igm/public_html/simulador/phpmailer.php on line 16

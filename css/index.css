@@ -1,0 +1,178 @@
+.area{
+    background-image: url("../img/fundo balao.png");
+    height: 390px;
+    }
+   
+    .menuCards{    
+        background-color: rgba(255, 255, 255,0.5);
+        perspective : 1800px;        
+        height: auto; 
+    }
+    .CardM{      
+        position: absolute;        
+        left: 50%;
+        top: 50%;       
+        margin-left:-125px;
+    }
+    .subMenuCards{
+        background-color: rgba(255, 255, 255,0.5);
+        text-align: center;
+        height: auto; 
+    }
+    .CardEstatico{      
+        background-color: rgb(0, 0, 0);
+        position: relative;
+        height: auto;
+        top:-5px;
+        left: 00px;       
+     }
+    .animaCard1{      
+        background-color: rgb(0, 0, 0);
+        position: relative;
+        height: auto;
+        top:-5px;
+        left: 00px;
+        /* Codigo de animação */
+        left: 00px;            
+        animation-name: animaCard1;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-fill-mode: forwards;
+     }
+
+    .animaCard2{       
+        background-color: rgb(0, 0, 0);
+        position: relative;
+        height: auto;
+        top:-5px;
+        /* Codigo de animação */
+        left: 00px;            
+        animation-name: animaCard2;
+        animation-delay: 0s;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-fill-mode: forwards;
+    }
+    .animaCard3{   
+        background-color: rgb(0, 0, 0);
+        position: relative;
+        height: auto;
+        top:-5px;
+        left: 00px;
+        /* Codigo de animação */
+        left: 00px;            
+        animation-name: animaCard3;
+        animation-delay: 0.3s;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-fill-mode: forwards;
+    }
+    .imgCardMenu{         
+        background-color:rgb(255, 255, 255);
+        width: 250px;
+    }
+    @keyframes animaCard1 {
+        0%   {background-color: #c0c0c1;}
+        25%  {background-color: #d3d3d3d3;}
+        50%  {background-color: #c0bfc098;}
+        100% {background-color: #d3d3d3;
+            left: 0px;}
+    }
+    @keyframes animaCard2 {
+        0%   {background-color: #c0c0c1;}
+        25%  {background-color: #d3d3d3d3;}
+        50%  {background-color: #c0bfc098;}
+        100% {background-color: #d3d3d3;
+            left: -285px;
+            }
+    }
+    @keyframes animaCard3 {
+    0%   {background-color: #c0c0c1;}
+    25%  {background-color: #d3d3d3d3;}
+    50%  {background-color: #c0bfc098;}
+    100% {background-color: #d3d3d3;
+            left: -565px;
+            }
+    }
+
+    .animacaoDestaque1{   
+        /* Codigo de animação */
+        left: 00px;            
+        animation-name: animacaoDestaque1;
+        animation-delay: 0s;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-fill-mode: forwards;
+    }
+    @keyframes animacaoDestaque1 {
+        0%   {background-color: #c0c0c1;}
+        25%  {
+            background-color: #d3d3d3d3;  
+             }
+        50%  {
+            background-color: #c0bfc098;
+            z-index: 3;
+            left: -150px;            
+        }
+        100% {background-color: #d3d3d3;     
+            z-index: 3;      
+            left: 0px; 
+            }
+        }
+    .animacaoDestaque2{   
+        /* Codigo de animação */
+        left: 00px;            
+        animation-name: animacaoDestaque2;
+        animation-delay: 0s;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-fill-mode: forwards;
+    }
+    @keyframes animacaoDestaque2 {
+        0%   {background-color: #c0c0c1;}
+        25%  {
+            background-color: #d3d3d3d3;
+             }
+        50%  {
+            background-color: #c0bfc098;
+            z-index: 3;
+            left: -385px;            
+        }
+        100% {background-color: #d3d3d3;
+            left: -285px;      
+            
+            z-index: 3;      
+            }
+        }
+
+        .animacaoDestaque3{   
+            /* Codigo de animação */
+            left: 00px;            
+            animation-name: animacaoDestaque3;
+            animation-delay: 0s;
+            animation-duration: 2s;
+            animation-iteration-count: 1;
+            animation-timing-function: linear;
+            animation-fill-mode: forwards;
+        }
+        @keyframes animacaoDestaque3 {
+            0%   {background-color: #c0c0c1;}
+            25%  {
+                background-color: #d3d3d3d3;
+                 }
+            50%  {
+                background-color: #c0bfc098;
+                z-index: 3;
+                left: -665px;            
+            }
+            100% {background-color: #d3d3d3;
+                left: -565px;      
+                
+                z-index: 3;      
+                }
+            }

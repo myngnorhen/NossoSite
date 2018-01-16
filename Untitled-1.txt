@@ -1,0 +1,15 @@
+<div class="tela"  ng-show="isTela(0)">  
+        <div   layout="row" layout-align="start center" >
+            <mycustomer menu="subMenu1" ></mycustomer>
+        </div> 
+    </div>
+    <div class="tela"  ng-show="isTela(2)">  
+        <div   layout="row" layout-align="start center" >
+            <mycustomer menu="subMenu2"></mycustomer>
+        </div> 
+    </div>
+    <div  ng-show="isTela(3)">  
+        <div   layout="row" layout-align="start center" >
+            <mycustomer menu="subMenu3" ng-disabled="true"></mycustomer>
+        </div> 
+    </div>
